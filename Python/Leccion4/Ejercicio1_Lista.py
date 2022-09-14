@@ -31,3 +31,39 @@ for nombre in nombres: # nombre es singular, la lista es plural
     print(nombre)
 else:
     print('Se acabaron los elementos de la lista')
+
+# ***** Leccion 7 =====> Preguntamos cuantos elementos tiene una Array
+print(len(nombres)) #pasamos como parametro la lista
+
+# ***** Leccion 8 =====> Agregamos un elemento al Array
+nombres.append('Luffy')
+print(nombres)
+
+# ***** Leccion 9 =====> Agregar dos nuevos elemento en un indice especifico
+nombres.insert(1, 'Zoro') #agrego un entero y un tipo string
+print(nombres)
+nombres.insert(3, 'Nami')
+print(nombres)
+
+# ***** Leccion 10 =====> Eliminamos un elemento
+nombres.remove('Zoro')
+print(nombres)
+
+# ***** Leccion 11 =====>  Eliminar el ultimo elemento
+nombres.pop()
+print(nombres)
+
+# ***** Leccion 12 =====>  Eliminar un indice especifico
+del nombres[2] # del significa delete (eliminar)
+print(nombres)
+
+# ***** Leccion 13 =====>  Eliminar, borrar o limpiar todos los elementos
+nombres.clear()
+print(nombres)
+
+# ***** Leccion 14 =====> Eliminar la lista
+del nombres
+print(nombres) # Aqui nos muestra la lista eliminada
+
+
+
