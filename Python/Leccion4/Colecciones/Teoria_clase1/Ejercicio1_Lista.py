@@ -102,3 +102,54 @@ lista3.sort()  # Ordena los elementos ascendentemente
 print(lista3)
 lista3.sort(reverse=True)  # Ordena los elementosa descendentemente
 print(lista3)
+
+# ***** Leccion 20 =====> Metodo PILAS usando listas
+
+pila = [1, 2, 3]
+
+# Agregar elementos a la pila por el final
+
+pila.append(4)
+pila.append(5)
+print(pila)
+
+# Sacamos elementos desde el final
+pila.pop()
+print(pila)
+
+elementoBorrado = pila.pop()  # Quita el ultimo elemento y lo guarda adentro de una variable
+
+print(f'Sacamos el elemento: {elementoBorrado}')
+print(f'La pila ahora quedo asi: {pila}')
+
+# ***** Leccion 21 =====> Metodo COLAS con listas
+# Estructura de datos de tipo fifo(first input / first output) 1ro q entra 1ro se va
+
+cola = ['Ariel', 'Osvaldo', 'Liliana', 'Pilar']
+
+# Agregamos elementos al cola final del banco
+
+cola.append('Natalia')
+cola.append('José')
+print(cola)
+
+#Sacamos elementos de la cola
+
+seRetira = cola.pop(0)
+print(f'Atendido el cliente:{seRetira}')
+print(cola)
+
+seRetira = cola.pop(0)
+print(f'Atendido el cliente:{seRetira}')
+print(cola)
+
+seRetira = cola.pop(0)
+print(f'Atendido el cliente:{seRetira}')
+print(cola)
+
+seRetira = cola.pop(0)
+print(f'Atendido el cliente:{seRetira}')
+print(cola)
+
+
+

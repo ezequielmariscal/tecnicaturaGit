@@ -79,3 +79,41 @@ print(diccionario)
 # ***** Leccion 12 =====> Eliminar diccionario
 
 # del diccionario el diccionario se borro
+
+# Repasamos diccionarios
+
+diccionarioNuevo = {'Azul' : 'Blue' , 'Rojo' : 'Red', 'Verde' : 'Green', 'Amarillo' : 'Yellow'}
+print(diccionarioNuevo)
+
+# ***** Leccion 13 =====> Eliminar diccionario
+
+del (diccionarioNuevo['Azul'])
+print(diccionarioNuevo)
+
+# ***** Leccion 14 =====> Los diccionarios pueden almacenar diferente tipos de datos
+
+diccionario2 = {'Ariel': {'Edad': 40, 'Altura': 1.83}, 'Osvaldo': [45, 1.85], 'Natalia': [35, 1.67]}
+print(diccionarioNuevo)
+
+# ***** Leccion 15 =====> Tarea
+
+# La tarea consiste en ingresar elementos al diccionario llamado seleccionArgentina, lo elementos a ingresar
+# deben ser como mínimo 4, estos elementos son los jugadores con su número de camiseta, nombre, apellido, edad, altura,
+# precio y posición de juego, por supuesto ver el video anterior.
+
+seleccionArgentina = {
+    10: {'Nombre': 'Lionel Messi', 'Edad': 35, 'Altura': 1.70, 'Precio': '50 Millones', 'Posicion': 'Extremo Derecho'},
+    11: {'Nombre': 'Angelito Di Maria', 'Edad': 34, 'Altura': 1.80, 'Precio': '12 Millones', 'Posicion': 'Extremo Derecho'},
+    24: {'Nombre': 'Paulo Dybala', 'Edad': 28, 'Altura': 1.77, 'Precio': '35 Millones', 'Posicion': 'Media Punta'},
+    19: {'Nombre': 'Nicolas Otamendi', 'Edad': 34, 'Altura': 1.83 , 'Precio': '3.5 Millones', 'Posicion': 'Defensa Central'},
+    1: {'Nombre': 'Franco Armani', 'Edad': 35, 'Altura': 1.85, 'Precio': '3.5 Millonwa', 'Posicion': 'Portero'},
+}
+print(seleccionArgentina[10])
+
+for llave, valor in seleccionArgentina.items():
+    print(llave, valor)
+
+
+
+
+
